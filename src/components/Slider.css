@@ -1,0 +1,340 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+ 
+}
+header, ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    position: static;
+    left: 0%;
+    right: 0%;
+}
+header ul li{
+    list-style: none;
+    margin: 0px 10px ;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 2.5vb;
+}
+.img{
+    background-image: url('../assets/maldeev1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.search input{
+    width: 50vw;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 10vh 0px;
+}
+::placeholder{
+    padding: 0px 20px;
+}
+.searchbtn button{
+    width:6vw;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: blue;
+    color: blue;
+    text-transform: capitalize;
+    font-size: 2vh;
+    margin: 10vh 0px;
+}
+.searchbtn button:hover{background-color: blue; color: white; cursor: pointer;}
+
+.card-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-image: url('../assets/maldiv2.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.card1 {
+    background-image: url('../assets/Maldin3.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.card2 {
+    background-image: url('../assets/Maldin4.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.card3 {
+    background-image: url('../assets/Maldiv5.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.btn{
+    background-color:red ;
+    color: beige;
+    width:5vw;
+    height: 4vh;
+    border-radius: 5px;
+    border-color: blue;
+    text-transform: capitalize;
+    font-size: 2vh;
+    
+    
+}
+/* ********************Beaches******************************************************************************8 */
+.cards-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    
+    
+}
+
+.cards1{
+    background-image: url('../assets/beaches1.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    
+    
+}
+.cards2{
+    background-image: url('../assets/beaches2.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    
+   
+}
+.cards3{
+    background-image: url('../assets/beaches3.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+     
+} 
+.cards4{
+    background-image: url('../assets/beaches4.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    
+    
+}
+
+/* ************************************************************ */
+
+.cards-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    background-image: url('../assets/beaches4.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.cards1 {
+    background-image: url('../assets/beaches3.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.cards2 {
+    background-image: url('../assets/beaches2.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.cards3 {
+    background-image: url('../assets/beaches1.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+/* *********************Food********************************************************************* */
+
+.cardf-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    
+    
+}
+
+.cardf{
+    background-image: url('../assets/food1.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    
+    
+}
+.cardf1{
+    background-image: url('../assets/food2.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    
+   
+}
+.cardf2{
+    background-image: url('../assets/food3.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+     
+} 
+.cardf3{
+    background-image: url('../assets/food1.jpg');
+    width: 15vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 3vb;
+    
+    
+}
+
+/* *******************************Tourist************************************************************** */
+.main-tourist{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.guidlines{
+    width: 40vw;
+    height: 40vh;
+    background-color:white;
+    padding: 10px;
+    margin: 20px;
+}
+.facalities{
+    width: 40vw;
+    height: 40vh;
+    background-color: white;
+    padding: 10px;  
+
+}
